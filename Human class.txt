@@ -1,0 +1,26 @@
+package com.company.firstprojectpack1;
+// Day 3 --human class created
+//any object created using human class willbe having 3 attributes and can perform 3 functions
+public class Human {
+	//attributes
+	   int height;
+	  int weight;
+	 String name;
+	public Human() { //default constructor
+		
+	}
+	//certain actions(functions) 
+	public void eat() {
+		System.out.println(name+"can eat...");
+		
+	}
+	public void sleep() {
+		System.out.println(name+"can sleep....");
+		
+		
+	}
+public void walk() {
+	System.out.println(name+"can walk");
+	System.out.println("weight is "+weight+ "and height is" +height);
+}
+}

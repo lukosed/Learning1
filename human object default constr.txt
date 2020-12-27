@@ -1,0 +1,22 @@
+package com.company.firstprojectpack1;
+
+public class Execute {
+	public static void main(String[] args) {
+		Human ram; // ram is a complex VARIABLE
+		ram = new Human(); //ram is known as reference variable // new Human is
+																//	the object here
+							//the function which creates the object is known as the CONTRUCTOR
+							//whenever the new Human is executed, the control will go to Human class 
+							// and search for the constructor
+	ram.height=170;
+	ram.weight=57;
+	ram.name="Madhu";
+	ram.walk();
+	ram.sleep();
+	ram.eat();
+	
+	
+	
+	}
+
+}
